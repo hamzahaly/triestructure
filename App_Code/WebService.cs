@@ -27,4 +27,20 @@ public class WebService : System.Web.Services.WebService
         return "Hello World";
     }
 
+    public class Trie
+    {
+        private TrieNode root;
+    
+        public Trie()
+        {
+            TrieNode root = new TrieNode();
+        }
+    }
+
+    public class TrieNode {
+        char letter;
+        bool isWord;
+        
+    }
+
 }

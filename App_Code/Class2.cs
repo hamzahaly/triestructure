@@ -6,9 +6,9 @@ using System.Web;
 /// <summary>
 /// Summary description for Class2
 /// </summary>
-public class Class2
+public class TrieNode
 {
-    public Class2()
+    public TrieNode()
     {
         //
         // TODO: Add constructor logic here

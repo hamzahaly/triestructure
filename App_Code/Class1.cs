@@ -6,12 +6,11 @@ using System.Web;
 /// <summary>
 /// Summary description for Class1
 /// </summary>
-public class Class1
+public class Trie
 {
-    public Class1()
+    private TrieNode root;
+    public Trie()
     {
-        //
-        // TODO: Add constructor logic here
-        //
+        TrieNode root = new TrieNode();
     }
 }
